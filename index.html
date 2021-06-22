@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta name="Forside" />
+    <title>FORSIDE</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+      width="180"
+      height="180"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+      width="32"
+      height="32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+      width="16"
+      height="16"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="tema_2.html">WEB</a></li>
+          <li><a href="tema_3.html">UX</a></li>
+          <li><a href="tema_4.html">ANIMATION</a></li>
+          <li><a href="tema_5.html">INDHOLD</a></li>
+          <li><a href="om.html">OM</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="index">
+      <section id="first_section">
+        <h1>PORTFOLIO</h1>
+        <p>
+          SUNE BECH <br />
+          1. SEMESTER <br />
+          MULTIMEDIEDESIGN
+        </p>
+
+        <video
+          id="video"
+          poster="Billeder/background_video_poster.webp"
+          width="1920"
+          height="1080"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source
+            src="https://sunebech.dk/kea/06_Portfolio/Portfolio_Eksamen/Video/background_video.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <video
+          id="video_2"
+          poster="Billeder/background_video_poster_lodret.webp"
+          width="370"
+          height="550"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source
+            src="https://sunebech.dk/kea/06_Portfolio/Portfolio_Eksamen/Video/background_video_lodret.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </section>
+
+      <section id="second_section">
+        <div class="content_wrapper">
+          <div class="info_text">
+            <h3>
+              Dette website omhandler min portfolie for 1. semester på
+              Multimediedesign. <br />
+              Nedenfor kan man se sneakpeaks for de forskellige temaer.
+            </h3>
+          </div>
+          <div id="pic_container">
+            <a href="tema_2.html"
+              ><div class="pic_forside">
+                <img
+                  src="Billeder/tema_2.webp"
+                  width="900"
+                  height="600"
+                  alt="Sneak Peak"
+                />
+                <div class="text_on_top"><h4>WEB</h4></div>
+              </div></a
+            >
+
+            <a href="tema_3.html"
+              ><div class="pic_forside">
+                <img
+                  src="Billeder/tema_3.webp"
+                  width="900"
+                  height="600"
+                  alt="Sneak Peak"
+                />
+                <div class="text_on_top"><h4>UX</h4></div>
+              </div></a
+            >
+            <a href="tema_4.html"
+              ><div class="pic_forside">
+                <img
+                  src="Billeder/tema_4.webp"
+                  width="900"
+                  height="600"
+                  alt="Sneak Peak"
+                />
+                <div class="text_on_top"><h4>ANIMATION</h4></div>
+              </div></a
+            >
+            <a href="tema_5.html"
+              ><div class="pic_forside">
+                <img
+                  src="Billeder/tema_5.webp"
+                  width="900"
+                  height="600"
+                  alt="Sneak Peak"
+                />
+                <div class="text_on_top"><h4>CONTENT</h4></div>
+              </div></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_text">
+        <div id="navn"><h5>SUNE BECH NIELSEN</h5></div>
+        <div id="mail"><h5>SUNE.BECH.NIELSEN88@GMAIL.COM</h5></div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
